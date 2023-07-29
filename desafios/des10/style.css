@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color:#84E1AD ;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5D38, #51e995 );
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top:40px ;
+}
+
+h1#titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-bottom: 20px;
+    letter-spacing: -2px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+}
+
+h2#subtitulo {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 5px;
+    
+}
+
+nav {
+    padding: 10px;
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(45, 160, 97);
+    
+    
+}
+
+main {
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+
+    min-width: 320px;
+    max-width: 1000px;
+
+}
+
+
+main img {
+    width: 100%;
+}
+h1#main {
+    font-family: idroid;
+    color: #1A5D38;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+h2#main {
+    font-family: "idroid";
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color:#1A5D38;
+    background-image: linear-gradient(to left, #1a5d3800, #51e9953a, #b2e0c6a6)
+}
+
+section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-top:20px ;
+}
+
+section > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+main img.pequena {
+    width:50%;
+    display: block;
+    margin: auto;
+}
+
+section#video {
+    background-color: #1A5D38;
+    padding: 20px 30px 20px 30px
+}
+
+iframe#video {
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 500px;
+}
+
+div {
+    margin: 20px;
+}
+
+div > h1 {
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    
+}
+
+div > p {
+    background-color:#C5EBD6;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1A5D38;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+ul {
+    columns: 2;
+    background-color: #C5EBD6;
+}
